@@ -55,7 +55,7 @@ public class MailController {
 	  * */
 	
 	helper.setFrom( email, fullname);
-	helper.setTo("afolayanayooluwa@gmail.com");
+	helper.setTo("xyz@gmail.com");
 	helper.setSubject(mailSubject);
 	helper.setText(mailContent, true );
 	
